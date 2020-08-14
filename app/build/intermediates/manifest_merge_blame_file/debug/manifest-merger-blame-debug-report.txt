@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ba.alem.gogreen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:7:5-65
+11-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:7:22-62
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:8:5-79
+12-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:9:5-71
+13-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:9:22-68
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:11:5-60
+15-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:11:19-57
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:13:5-49:19
+26        android:allowBackup="true"
+26-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:14:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_gogreen_foreground"
+29-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:15:9-53
+30        android:label="@string/app_name"
+30-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:16:9-41
+31        android:roundIcon="@mipmap/ic_gogreen_round"
+31-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:17:9-53
+32        android:supportsRtl="true"
+32-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:18:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:19:9-40
+35        <activity android:name="ba.alem.gogreen.CameraActivity" />
+35-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:20:9-61
+35-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:20:19-49
+36        <activity android:name="ba.alem.gogreen.Education" />
+36-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:21:9-47
+36-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:21:19-44
+37        <activity android:name="ba.alem.gogreen.ZeleniKalendar" />
+37-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:22:9-52
+37-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:22:19-49
+38        <!--
+39             The API key for Google Maps-based APIs is defined as a string resource.
+40             (See the file "res/values/google_maps_api.xml").
+41             Note that the API key is linked to the encryption key used to sign the APK.
+42             You need a different API key for each encryption key, including the release key that is used to
+43             sign the APK for publishing.
+44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+45        -->
+46        <activity
+46-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:31:9-33:63
+47            android:name="ba.alem.gogreen.EcoMapsActivity"
+47-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:32:13-44
+48            android:label="@string/title_activity_eco_maps" />
+48-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:33:13-60
+49        <activity
+49-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:34:9-37:59
+50            android:name="ba.alem.gogreen.Edukacija"
+50-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:35:13-38
+51            android:label="@string/title_activity_edukacija"
+51-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:36:13-61
+52            android:theme="@style/AppTheme.NoActionBar" />
+52-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:37:13-56
+53        <activity android:name="ba.alem.gogreen.MainActivity" >
+53-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:38:9-44:20
+53-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:38:19-47
+54            <intent-filter>
+54-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:39:13-43:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:40:17-69
+55-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:40:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:42:17-77
+57-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:42:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <meta-data
+61-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:46:9-48:55
+62            android:name="com.google.android.geo.API_KEY"
+62-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:47:13-58
+63            android:value="@string/google_maps_key" />
+63-->C:\GoGreen\GoGreen\app\src\main\AndroidManifest.xml:48:13-52
+64
+65        <activity
+65-->[com.karumi:dexter:4.2.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\d4107ea14f7144c3edf46c58dd8194c4\jetified-dexter-4.2.0\AndroidManifest.xml:27:9-29:72
+66            android:name="com.karumi.dexter.DexterActivity"
+66-->[com.karumi:dexter:4.2.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\d4107ea14f7144c3edf46c58dd8194c4\jetified-dexter-4.2.0\AndroidManifest.xml:28:13-60
+67            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+67-->[com.karumi:dexter:4.2.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\d4107ea14f7144c3edf46c58dd8194c4\jetified-dexter-4.2.0\AndroidManifest.xml:29:13-69
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\016a2a476def147923e1dba69a117e3d\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\f478834ca603d0a6e5812f14dbb38bb4\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\f478834ca603d0a6e5812f14dbb38bb4\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\f478834ca603d0a6e5812f14dbb38bb4\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\f478834ca603d0a6e5812f14dbb38bb4\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\29e8f50d04ffadead34256246ed1289f\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\29e8f50d04ffadead34256246ed1289f\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\emina\.gradle\caches\transforms-2\files-2.1\29e8f50d04ffadead34256246ed1289f\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+80    </application>
+81
+82</manifest>
