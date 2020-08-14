@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Go Green!</string>
+    <string name="title_activity_edukacija">Edukacija</string>
+    <string name="large_text">
+        "Recikliranje.\n\n"
+
+        "ZNAŠ LI? da svatko od nas proizvede više od 400 kg otpada godišnje? Ako otpad odložimo u ispravne spremnike,
+        on se može reciklirati i ponovno upotrijebiti. Ako ga bacimo u kantu sa mješanim komunalnim otpadom,
+        postaje smeće koje nije iskoristivo i koje štetno utječe na okoliš i tvoje zdravlje
+        ŠTO JE RECIKLIRANJE? Recikliranje je postupak kojim odvojeno prikupljamo različite vrste otpada,
+        a čijom se preradom dobivaju materijali za izradu novih proizvoda slične ili iste namjene.
+        U recikliranje spada sve što se može ponovno iskoristiti, a da se ne baci.
+        U ČEMU NAM POMAŽE RECIKLIRANJE U očuvanju prirode i njenih sirovina, smanjenju onečišćenja zraka, vode i tla!"
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_eco_maps">Eko Mapa</string>
+</resources>

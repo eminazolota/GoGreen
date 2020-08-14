@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8sp"
+            android:layout_weight="1"
+            android:background="@drawable/activity_art"
+            android:onClick="OnPrviklik"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="40sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8sp"
+            android:layout_weight="1"
+            android:background="@drawable/greenmap"
+            android:onClick="OnDrugiklik" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/plant_trees_2048x2048"
+            android:onClick="OnTreciklik" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/camera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:background="@android:color/holo_green_dark"
+        android:src="@drawable/ic_camera_alt_black_24dp" />
+
+</RelativeLayout>
